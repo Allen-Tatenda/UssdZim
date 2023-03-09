@@ -1,0 +1,100 @@
+{
+  "banks": [
+    {
+      "id": "bank1",
+      "name": "Agribank",
+      "image": "lib/images/agribank.png",
+      "ussd": "*277#"
+    },
+    {
+      "id": "bank2",
+      "name": "BancABC",
+      "image": "lib/images/bancabs.png",
+      "ussd": "*242#"
+    },
+    {
+      "id": "bank3",
+      "name": "CABS",
+      "image": "lib/images/cabs-removebg.png",
+      "ussd": "*227#"
+    },
+    {
+      "id": "bank4",
+      "name": "CBZ",
+      "image": "lib/images/cbz.png",
+      "ussd": "*230#"
+    },
+    {
+      "id": "bank5",
+      "name": "Ecobank",
+      "image": "lib/images/ecobank.png",
+      "ussd": "*241#"
+    },
+    {
+      "id": "bank6",
+      "name": "FBC",
+      "image": "lib/images/fbc.png",
+      "ussd": "*220#"
+    },
+    {
+      "id": "bank7",
+      "name": "First Capital",
+      "image": "lib/images/firstcapital.png",
+      "ussd": "*229#"
+    },
+    {
+      "id": "bank8",
+      "name": "Metbank",
+      "image": "lib/images/metbank.png",
+      "ussd": "*234#"
+    },
+    {
+      "id": "bank9",
+      "name": "NBS",
+      "image": "lib/images/nbs-logo.png",
+      "ussd": "*202#"
+    },
+    {
+      "id": "bank10",
+      "name": "Nedbank",
+      "image": "lib/images/nedbank.png",
+      "ussd": "*299#"
+    },
+    {
+      "id": "bank11",
+      "name": "NMB",
+      "image": "lib/images/nmb.png",
+      "ussd": "*241#"
+    },
+    {
+      "id": "bank12",
+      "name": "POSB",
+      "image": "lib/images/posb.png",
+      "ussd": "*223#"
+    },
+    {
+      "id": "bank13",
+      "name": "Stanbic",
+      "image": "lib/images/stanbic.png",
+      "ussd": "*247#"
+    },
+    {
+      "id": "bank14",
+      "name": "Standard Chartered",
+      "image": "lib/images/stanchart.png",
+      "ussd": "*200#"
+    },
+    {
+      "id": "bank15",
+      "name": "Steward",
+      "image": "lib/images/steward.png",
+      "ussd": "*210#"
+    },
+    {
+      "id": "bank16",
+      "name": "ZB",
+      "image": "lib/images/zb.png",
+      "ussd": "*400*600#"
+    }
+  ]
+}

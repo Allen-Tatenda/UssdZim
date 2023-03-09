@@ -1,0 +1,355 @@
+{
+  "econet": [
+    {
+      "id": "service1",
+      "name": "Support",
+      "image": "lib/images/econet.png",
+      "ussd": "*111#"
+    },
+    {
+      "id": "service2",
+      "name": "Airtime Balance",
+      "image": "lib/images/econet.png",
+      "ussd": "*125#"
+    },
+    {
+      "id": "service3",
+      "name": "Recharge",
+      "image": "lib/images/econet.png",
+      "ussd": "*121*----- ---- ---- ----#"
+    },
+    {
+      "id": "service4",
+      "name": "Bundles Menu",
+      "image": "lib/images/econet.png",
+      "ussd": "*140#"
+    },
+    {
+      "id": "service5",
+      "name": "Yomix",
+      "image": "lib/images/econet.png",
+      "ussd": "*142#"
+    },
+    {
+      "id": "service6",
+      "name": "Data Bundles",
+      "image": "lib/images/econet.png",
+      "ussd": "*143#"
+    },
+    {
+      "id": "service7",
+      "name": "Vaya Digital Farmer",
+      "image": "lib/images/econet.png",
+      "ussd": "*144#"
+    },
+    {
+      "id": "service8",
+      "name": "Maisha Health Ecosystem",
+      "image": "lib/images/econet.png",
+      "ussd": "*147#"
+    },
+    {
+      "id": "service9",
+      "name": "Service Options",
+      "image": "lib/images/econet.png",
+      "ussd": "*150#"
+    },
+    {
+      "id": "service10",
+      "name": "Ecocash RTGS",
+      "image": "lib/images/econet.png",
+      "ussd": "*151#"
+    },
+    {
+      "id": "service11",
+      "name": "Ecocash FCA",
+      "image": "lib/images/econet.png",
+      "ussd": "*153#"
+    },
+    {
+      "id": "service12",
+      "name": "Emergency Credit",
+      "image": "lib/images/econet.png",
+      "ussd": "*179#"
+    },
+    {
+      "id": "service13",
+      "name": "Voter Registration Status",
+      "image": "lib/images/econet.png",
+      "ussd": "*265#"
+    },
+    {
+      "id": "service14",
+      "name": "Social Xpress",
+      "image": "lib/images/econet.png",
+      "ussd": "*325#"
+    },
+    {
+      "id": "service15",
+      "name": "Call me Back",
+      "image": "lib/images/econet.png",
+      "ussd": "*555*----------#"
+    },
+    {
+      "id": "service16",
+      "name": "Call Status",
+      "image": "lib/images/econet.png",
+      "ussd": "*595#"
+    },
+    {
+      "id": "service17",
+      "name": "Liquid Self-Service",
+      "image": "lib/images/econet.png",
+      "ussd": "*656#"
+    },
+    {
+      "id": "service18",
+      "name": "News,Jokes,Tips...",
+      "image": "lib/images/econet.png",
+      "ussd": "*717#"
+    },
+    {
+      "id": "service19",
+      "name": "Ecosure",
+      "image": "lib/images/econet.png",
+      "ussd": "*900#"
+    }
+  ],
+
+  "netone": [
+    {
+      "id": "service1",
+      "name": "Self-Care",
+      "image": "lib/images/netone.png",
+      "ussd": "*123#"
+    },
+    {
+      "id": "service2",
+      "name": "One Money",
+      "image": "lib/images/netone.png",
+      "ussd": "*111#"
+    },
+    {
+      "id": "service3",
+      "name": "Time and User Numbers",
+      "image": "lib/images/netone.png",
+      "ussd": "*120*8#"
+    },
+    {
+      "id": "service4",
+      "name": "Out of Bundle Browsing",
+      "image": "lib/images/netone.png",
+      "ussd": "*130#"
+    },
+    {
+      "id": "service5",
+      "name": "Airtime Top-up",
+      "image": "lib/images/netone.png",
+      "ussd": "*133*---- ---- ---- ----#"
+    },
+    {
+      "id": "service6",
+      "name": "Airtime Balance",
+      "image": "lib/images/netone.png",
+      "ussd": "*134#"
+    },
+    {
+      "id": "service7",
+      "name": "Airtime Credit",
+      "image": "lib/images/netone.png",
+      "ussd": "*140#"
+    },
+    {
+      "id": "service8",
+      "name": "Bundles",
+      "image": "lib/images/netone.png",
+      "ussd": "*140#"
+    },
+    {
+      "id": "service9",
+      "name": "Voter Registration Check",
+      "image": "lib/images/netone.png",
+      "ussd": "*265#"
+    },
+    {
+      "id": "service10",
+      "name": "Business Bundles",
+      "image": "lib/images/netone.png",
+      "ussd": "*371#"
+    }
+  ],
+
+  "telecel": [
+    {
+      "id": "service1",
+      "name": "Tele Care",
+      "image": "lib/images/telecel.png",
+      "ussd": "*808#"
+    },
+    {
+      "id": "service2",
+      "name": "Telecash",
+      "image": "lib/images/telecel.png",
+      "ussd": "*888#"
+    },
+    {
+      "id": "service3",
+      "name": "Balance Inquiry",
+      "image": "lib/images/telecel.png",
+      "ussd": "*122#"
+    },
+    {
+      "id": "service4",
+      "name": "Recharge",
+      "image": "lib/images/telecel.png",
+      "ussd": "*123*---- ---- ---- ----#"
+    },
+    {
+      "id": "service5",
+      "name": "Call me back",
+      "image": "lib/images/telecel.png",
+      "ussd": "*140#"
+    },
+    {
+      "id": "service6",
+      "name": "Notify When Reachable",
+      "image": "lib/images/telecel.png",
+      "ussd": "*141#"
+    },
+    {
+      "id": "service7",
+      "name": "Missed Call Alert",
+      "image": "lib/images/telecel.png",
+      "ussd": "*142#"
+    },
+    {
+      "id": "service8",
+      "name": "Emergency Credit",
+      "image": "lib/images/telecel.png",
+      "ussd": "*143#"
+    },
+    {
+      "id": "service9",
+      "name": "Broadband & Data",
+      "image": "lib/images/telecel.png",
+      "ussd": "*144#"
+    },
+    {
+      "id": "service10",
+      "name": "Main Menu",
+      "image": "lib/images/telecel.png",
+      "ussd": "*145#"
+    },
+    {
+      "id": "service11",
+      "name": "CrossNet Bundles",
+      "image": "lib/images/telecel.png",
+      "ussd": "*146#"
+    },
+    {
+      "id": "service12",
+      "name": "Teletunes",
+      "image": "lib/images/telecel.png",
+      "ussd": "*147#"
+    },
+    {
+      "id": "service13",
+      "name": "On Demand Services",
+      "image": "lib/images/telecel.png",
+      "ussd": "*151#"
+    },
+    {
+      "id": "service14",
+      "name": "International Voice Bundles",
+      "image": "lib/images/telecel.png",
+      "ussd": "*155#"
+    },
+    {
+      "id": "service15",
+      "name": "Red & Business",
+      "image": "lib/images/telecel.png",
+      "ussd": "*175#"
+    },
+    {
+      "id": "service16",
+      "name": "Khuluma",
+      "image": "lib/images/telecel.png",
+      "ussd": "*177#"
+    },
+    {
+      "id": "service17",
+      "name": "SMS Bundles",
+      "image": "lib/images/telecel.png",
+      "ussd": "*404#"
+    },
+    {
+      "id": "service18",
+      "name": "Day & Night Bundles",
+      "image": "lib/images/telecel.png",
+      "ussd": "*470#"
+    },
+    {
+      "id": "service19",
+      "name": "Social & WiFi Bundles",
+      "image": "lib/images/telecel.png",
+      "ussd": "*145#"
+    },
+    {
+      "id": "service20",
+      "name": "International Roaming",
+      "image": "lib/images/telecel.png",
+      "ussd": "*33156#"
+    }
+
+  ],
+  "utilities": [
+    {
+      "id": "service1",
+      "name": "Access Forex",
+      "image": "lib/images/accessforex.png",
+      "ussd": "*134*3042#"
+    },
+    {
+      "id": "service2",
+      "name": "City Parking",
+      "image": "lib/images/cityparking.png",
+      "ussd": "*192#"
+    },
+    {
+      "id": "service3",
+      "name": "Click n Pay",
+      "image": "lib/images/clicknpay.png",
+      "ussd": "*788#"
+    },
+    {
+      "id": "service4",
+      "name": "Ctrade/Escrow & ZMX",
+      "image": "lib/images/ctrade.png",
+      "ussd": "*727#"
+    },
+    {
+      "id": "service5",
+      "name": "Hot Recharge",
+      "image": "lib/images/hotrecharge.png",
+      "ussd": "*180#"
+    },
+    {
+      "id": "service6",
+      "name": "Innbucks",
+      "image": "lib/images/innbucks2.png",
+      "ussd": "*569#"
+    },
+    {
+      "id": "service7",
+      "name": "My Cash",
+      "image": "lib/images/mycash2.png",
+      "ussd": "*212#"
+    },
+    {
+      "id": "service8",
+      "name": "TechZim",
+      "image": "lib/images/techzim.png",
+      "ussd": "*405#"
+    }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "mnos": [
+    {
+      "id": "econet",
+      "name": "Econet",
+      "image": "lib/images/econet.png"
+    },
+    {
+      "id": "netone",
+      "name": "Netone",
+      "image": "lib/images/netone.png"
+    },
+    {
+      "id": "telecel",
+      "name": "Telecel",
+      "image": "lib/images/telecel.png"
+    }
+  ]
+}
