@@ -20,7 +20,7 @@ class _MySplashScreenState extends State<MySplashScreen>
     Timer(const Duration(seconds: 3), () async
     {
 
-        Navigator.push(context, MaterialPageRoute(builder: (c)=> Navigation()));
+      Navigator.push(context, MaterialPageRoute(builder: (c)=> Navigation()));
     });
   }
 
@@ -39,7 +39,6 @@ class _MySplashScreenState extends State<MySplashScreen>
         decoration: BoxDecoration(
           color: Colors.black87
         ),
-        //color: Colors.black87,
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -74,15 +73,41 @@ class _MySplashScreenState extends State<MySplashScreen>
                           ),
                         ),
 
-                        Text(
-                          "UssdZim",
-                          style: TextStyle(
-                              fontSize: 30,
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                            fontFamily: "PlayFair",
-                            letterSpacing: 7,
-                          ),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "UssdZim",
+                              style: TextStyle(
+                                  fontSize: 30,
+                                  fontWeight: FontWeight.bold,
+                                fontFamily: "PlayFair",
+                                letterSpacing: 7,
+                                  foreground: Paint()..shader = LinearGradient(
+                                      colors: <Color>[
+                                        Colors.orange,
+                                        Colors.blue,
+                                        Colors.red
+                                      ]
+                                  ).createShader(Rect.fromLTWH(600, 200, 400, 200))
+                              ),
+                            ),
+                            Text(
+                              "All USSD codes in one App!",
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontFamily: "PlayFair",
+                                letterSpacing: 1,
+                                  foreground: Paint()..shader = LinearGradient(
+                                      colors: <Color>[
+                                        Colors.orange,
+                                        Colors.green,
+                                        Colors.red
+                                      ]
+                                  ).createShader(Rect.fromLTWH(170, 190, 100, 200))
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),
