@@ -36,23 +36,57 @@ class _MySplashScreenState extends State<MySplashScreen>
   {
     return Material(
       child: Container(
-        color: Colors.black,
+        decoration: BoxDecoration(
+          color: Colors.black87
+        ),
+        //color: Colors.black87,
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children:   [
 
-              Image.asset("lib/images/ussd.png"),
 
-              const SizedBox(height: 10,),
 
-              const Text(
-                "UssdZim",
-                style: TextStyle(
-                    fontSize: 24,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                  fontFamily: "PlayFair",
+
+              SizedBox(height: 20,),
+
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(40.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.black54,
+                        borderRadius: BorderRadius.only(
+                            topLeft:Radius.circular(100),
+                            bottomRight: Radius.elliptical(300, 400)
+                        )
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(8),
+                          child: Image(
+                            image: AssetImage("lib/images/ussd.png"),
+                            width: 100,
+                            height: 100,
+                          ),
+                        ),
+
+                        Text(
+                          "UssdZim",
+                          style: TextStyle(
+                              fontSize: 30,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            fontFamily: "PlayFair",
+                            letterSpacing: 7,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
               ),
 
