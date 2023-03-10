@@ -23,7 +23,6 @@ class _ServicePageState extends State<ServicePage> {
           children: [
 
             Container(
-             
               child:
               Column(
                 children: [
