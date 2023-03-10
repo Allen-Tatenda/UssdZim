@@ -36,6 +36,7 @@ class Assets {
   static const String imagesSteward = 'lib/images/steward.png';
   static const String imagesTechzim = 'lib/images/techzim.png';
   static const String imagesTelecel = 'lib/images/telecel.png';
+  static const String imagesUssd = 'lib/images/ussd.png';
   static const String imagesYt = 'lib/images/yt.png';
   static const String imagesZb = 'lib/images/zb.png';
   static const String jsonBanks = 'lib/json/banks.json';
@@ -53,6 +54,7 @@ class Assets {
   static const String pagesHome = 'lib/pages/home.dart';
   static const String pagesMnos = 'lib/pages/mnos.dart';
   static const String pagesServices = 'lib/pages/services.dart';
+  static const String pagesSplashScreen = 'lib/pages/splash_screen.dart';
   static const String pagesUtilitiesPage = 'lib/pages/utilities_page.dart';
   static const String staticOFL = 'lib/fonts/static/OFL.txt';
   static const String staticPlayfairDisplayBlack = 'lib/fonts/static/PlayfairDisplay-Black.ttf';

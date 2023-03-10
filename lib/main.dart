@@ -1,6 +1,7 @@
 import 'package:dating/pages/banks.dart';
 import 'package:dating/pages/developer.dart';
 import 'package:dating/pages/mnos.dart';
+import 'package:dating/pages/splash_screen.dart';
 import 'package:dating/pages/utilities_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
@@ -18,11 +19,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'UssdZim',
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      home: const Navigation(),
+      home: const MySplashScreen(),
     );
   }
 }
@@ -113,35 +114,6 @@ class _NavigationState extends State<Navigation> {
         ),
       ),
 
-
-
-
-
-    //  bottomNavigationBar: BottomNavigationBar(
-    // backgroundColor: Colors.black87,
-    // items: const [
-    // BottomNavigationBarItem(
-    // icon: Icon(
-    // Icons.sim_card,
-    // ),
-    // label: 'MNO',
-    // ),
-    //   BottomNavigationBarItem(
-    //       icon: Icon(Icons.money),
-    //       label: 'Banks'
-    //   ),
-    //   BottomNavigationBarItem(
-    //       icon: Icon(Icons.devices_other),
-    //       label: 'Utilities'
-    //   ),
-    // ],
-    //    currentIndex: selectedIndex,
-    //    onTap: (value) {
-    //      setState(() {
-    //        selectedIndex = value;
-    //      });
-    //    },
-    //  ),
       body: Column(
         children: [
           Expanded(
