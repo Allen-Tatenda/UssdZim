@@ -23,20 +23,18 @@ class _ServicePageState extends State<ServicePage> {
           children: [
 
             Container(
-              decoration: const BoxDecoration(
-
-              ),
+             
               child:
               Column(
                 children: [
-                  SizedBox(height: 5,),
+                  const SizedBox(height: 5,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children:  const [
+                    children:   [
 
                       Text(
-                        'Econet',
-                        style: TextStyle(
+                        serviceProvider.toUpperCase(),
+                        style: const TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 30,
                           color: Colors.white,

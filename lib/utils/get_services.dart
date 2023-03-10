@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 
 List selectedServices = [];
+String serviceProvider = '';
 GetServices(provider){
 
   List services = [];
@@ -14,6 +15,7 @@ GetServices(provider){
 
       services = data[provider];
       selectedServices = services;
+      serviceProvider = provider;
     return services;
   }
   return readServices();

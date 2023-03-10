@@ -183,7 +183,7 @@ class _UtilitiesPageState extends State<UtilitiesPage> {
                     Padding(
                       padding: EdgeInsets.all(20.0),
                       child: Text(
-                        'Select Bank',
+                        'Select Utility',
                         style: TextStyle(
                           color: Colors.grey[100],
                           fontSize: 24,
