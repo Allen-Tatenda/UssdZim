@@ -46,16 +46,16 @@ class _NavigationState extends State<Navigation> {
     Widget page;
     switch(selectedIndex){
       case 0 :
-        page = MnosPage();
+        page = const MnosPage();
         break;
       case 1 :
-        page = BanksPage();
+        page = const BanksPage();
         break;
       case 2 :
-        page = UtilitiesPage();
+        page = const UtilitiesPage();
         break;
       case 3 :
-        page = DeveloperPage();
+        page = const DeveloperPage();
         break;
       default:
         throw UnimplementedError('no widget for $selectedIndex');
@@ -65,15 +65,12 @@ class _NavigationState extends State<Navigation> {
     var mainArea = ColoredBox(
       color: colorScheme.surfaceVariant,
       child: AnimatedSwitcher(
-        duration: Duration(milliseconds: 200),
+        duration: const Duration(milliseconds: 200),
         child: page,
       ),
     );
 
     return Scaffold(
-
-
-
 
       bottomNavigationBar:  Container(
         color: Colors.black87,
@@ -90,8 +87,8 @@ class _NavigationState extends State<Navigation> {
                   selectedIndex = index;
                 });
             },
-            padding: EdgeInsets.all(16),
-            tabs: [
+            padding: const EdgeInsets.all(16),
+            tabs: const [
               GButton(
                   icon: Icons.sim_card,
                 text: 'MNOs',

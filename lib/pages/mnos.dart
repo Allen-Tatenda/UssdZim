@@ -32,7 +32,6 @@ class _MnosPageState extends State< MnosPage> {
   void initState(){
     super.initState();
     readMnos();
-    print(mnos);
   }
 
 
@@ -52,7 +51,7 @@ class _MnosPageState extends State< MnosPage> {
               child:
               Column(
                 children: [
-                  SizedBox(height: 5,),
+                  const SizedBox(height: 5,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
@@ -73,7 +72,7 @@ class _MnosPageState extends State< MnosPage> {
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
+                      children: const [
                         Text(
                           'Popular',
                           style: TextStyle(
@@ -95,7 +94,7 @@ class _MnosPageState extends State< MnosPage> {
                         InkWell(
 
                           onTap: (){
-                            Navigator.of(context).push(MaterialPageRoute(builder: (context) => ServicePage())
+                            Navigator.of(context).push(MaterialPageRoute(builder: (context) => const ServicePage())
                             );
                             GetServices('econet');
                           },
@@ -140,19 +139,19 @@ class _MnosPageState extends State< MnosPage> {
             Expanded(
               child: Container(
 
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: Colors.black26,
                     borderRadius: BorderRadius.only(
                         topLeft:Radius.circular(100),
                         bottomRight: Radius.elliptical(300, 400)
                     )
                 ),
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
 
                 child:Column(
                   children: [
                     Padding(
-                      padding: EdgeInsets.all(20.0),
+                      padding: const EdgeInsets.all(20.0),
                       child: Text(
                         'Select MNO',
                         style: TextStyle(

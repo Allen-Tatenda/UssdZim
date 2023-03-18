@@ -49,7 +49,7 @@ class _BanksPageState extends State<BanksPage> {
               child:
               Column(
                 children: [
-                  SizedBox(height: 5,),
+                  const SizedBox(height: 5,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
@@ -70,7 +70,7 @@ class _BanksPageState extends State<BanksPage> {
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
+                      children: const [
                         Text(
                           'Popular',
                           style: TextStyle(
@@ -169,19 +169,19 @@ class _BanksPageState extends State<BanksPage> {
             Expanded(
               child: Container(
 
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: Colors.black26,
                     borderRadius: BorderRadius.only(
                         topLeft:Radius.circular(100),
                         bottomRight: Radius.elliptical(300, 400)
                     )
                 ),
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
 
                 child:Column(
                   children: [
                     Padding(
-                      padding: EdgeInsets.all(20.0),
+                      padding: const EdgeInsets.all(20.0),
                       child: Text(
                         'Select Bank',
                         style: TextStyle(

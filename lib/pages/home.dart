@@ -115,19 +115,19 @@ class _HomePageState extends State<HomePage> {
             Expanded(
               child: Container(
 
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Colors.purple,
                   borderRadius: BorderRadius.only(
                       topLeft:Radius.circular(100),
                     bottomRight: Radius.elliptical(300, 400)
                   )
                 ),
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
 
                 child:Column(
                   children: [
                      Padding(
-                      padding: EdgeInsets.all(20.0),
+                      padding: const EdgeInsets.all(20.0),
                       child: Text(
                         'Select Service Provider',
                         style: TextStyle(

@@ -30,7 +30,6 @@ class _DeveloperPageState extends State< DeveloperPage> {
   void initState(){
     super.initState();
     readMnos();
-    print(mnos);
   }
 
 
@@ -50,7 +49,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
               child:
               Column(
                 children: [
-                  SizedBox(height: 5,),
+                  const SizedBox(height: 5,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
@@ -71,7 +70,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
+                      children: const [
                         Text(
                           'Developer',
                           style: TextStyle(
@@ -129,19 +128,19 @@ class _DeveloperPageState extends State< DeveloperPage> {
             Expanded(
               child: Container(
 
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: Colors.black26,
                     borderRadius: BorderRadius.only(
                         topLeft:Radius.circular(100),
                         bottomRight: Radius.elliptical(300, 400)
                     )
                 ),
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
 
                 child:Column(
                   children: [
                     Padding(
-                      padding: EdgeInsets.all(20.0),
+                      padding: const EdgeInsets.all(20.0),
                       child: Text(
                         'Socials/Contacts',
                         style: TextStyle(
@@ -171,7 +170,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                               Row(
-                                children:  [
+                                children:  const [
                                   Icon(
                                       Icons.phone,
                                     size: 40,
@@ -181,7 +180,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                                   SizedBox(width: 15,),
                                   Text(
                                     "+263 772 504 909",
-                                    style: const TextStyle(
+                                    style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
                                       fontSize: 20,
@@ -200,7 +199,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                       ),
                     ),
                             ),
-                            SizedBox(height: 18,),
+                            const SizedBox(height: 18,),
                             Container(
                               decoration: BoxDecoration(
                                 color: Colors.white10,
@@ -212,7 +211,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     Row(
-                                      children:  [
+                                      children:  const [
                                         Icon(
                                           Icons.alternate_email,
                                           size: 40,
@@ -222,7 +221,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                                         SizedBox(width: 15,),
                                         Text(
                                           "anjiva7@gmail.com",
-                                          style: const TextStyle(
+                                          style: TextStyle(
                                             color: Colors.white,
                                             fontWeight: FontWeight.bold,
                                             fontSize: 20,
@@ -240,7 +239,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                                 ),
                               ),
                             ),
-                            SizedBox(height: 18,),
+                            const SizedBox(height: 18,),
                             Container(
                               decoration: BoxDecoration(
                                 color: Colors.white10,
@@ -252,7 +251,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     Row(
-                                      children:  [
+                                      children:  const [
                                         Icon(
                                           Icons.facebook,
                                           size: 40,
@@ -262,7 +261,7 @@ class _DeveloperPageState extends State< DeveloperPage> {
                                         SizedBox(width: 15,),
                                         Text(
                                           "Allen Tatenda Young Tee",
-                                          style: const TextStyle(
+                                          style: TextStyle(
                                             color: Colors.white,
                                             fontWeight: FontWeight.bold,
                                             fontSize: 20,

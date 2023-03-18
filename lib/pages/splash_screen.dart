@@ -20,7 +20,7 @@ class _MySplashScreenState extends State<MySplashScreen>
     Timer(const Duration(seconds: 3), () async
     {
 
-      Navigator.push(context, MaterialPageRoute(builder: (c)=> Navigation()));
+      Navigator.push(context, MaterialPageRoute(builder: (c)=> const Navigation()));
     });
   }
 
@@ -36,7 +36,7 @@ class _MySplashScreenState extends State<MySplashScreen>
   {
     return Material(
       child: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: Colors.black87
         ),
         child: Center(
@@ -47,13 +47,13 @@ class _MySplashScreenState extends State<MySplashScreen>
 
 
 
-              SizedBox(height: 20,),
+              const SizedBox(height: 20,),
 
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.all(40.0),
                   child: Container(
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       color: Colors.black54,
                         borderRadius: BorderRadius.only(
                             topLeft:Radius.circular(100),
@@ -66,7 +66,7 @@ class _MySplashScreenState extends State<MySplashScreen>
 
                         ClipRRect(
                           borderRadius: BorderRadius.circular(8),
-                          child: Image(
+                          child: const Image(
                             image: AssetImage("lib/images/ussd.png"),
                             width: 100,
                             height: 100,
@@ -83,13 +83,13 @@ class _MySplashScreenState extends State<MySplashScreen>
                                   fontWeight: FontWeight.bold,
                                 fontFamily: "PlayFair",
                                 letterSpacing: 7,
-                                  foreground: Paint()..shader = LinearGradient(
+                                  foreground: Paint()..shader = const LinearGradient(
                                       colors: <Color>[
                                         Colors.orange,
                                         Colors.blue,
                                         Colors.red
                                       ]
-                                  ).createShader(Rect.fromLTWH(600, 200, 400, 200))
+                                  ).createShader(const Rect.fromLTWH(600, 200, 400, 200))
                               ),
                             ),
                             Text(
@@ -98,13 +98,13 @@ class _MySplashScreenState extends State<MySplashScreen>
                                 fontSize: 14,
                                 fontFamily: "PlayFair",
                                 letterSpacing: 1,
-                                  foreground: Paint()..shader = LinearGradient(
+                                  foreground: Paint()..shader = const LinearGradient(
                                       colors: <Color>[
                                         Colors.orange,
                                         Colors.green,
                                         Colors.red
                                       ]
-                                  ).createShader(Rect.fromLTWH(170, 190, 100, 200))
+                                  ).createShader(const Rect.fromLTWH(170, 190, 100, 200))
                               ),
                             ),
                           ],

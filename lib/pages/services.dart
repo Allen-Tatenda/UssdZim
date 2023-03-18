@@ -46,23 +46,23 @@ class _ServicePageState extends State<ServicePage> {
                 ],
               ),
             ),
-SizedBox(height: 10,),
+const SizedBox(height: 10,),
             Expanded(
               child: Container(
 
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: Colors.black26,
                     borderRadius: BorderRadius.only(
                         topLeft:Radius.circular(100),
                         bottomRight: Radius.elliptical(300, 400)
                     )
                 ),
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
 
                 child:Column(
                   children: [
                     Padding(
-                      padding: EdgeInsets.all(20.0),
+                      padding: const EdgeInsets.all(20.0),
                       child: Text(
                         'Select Service',
                         style: TextStyle(
