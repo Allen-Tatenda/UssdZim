@@ -24,10 +24,10 @@ void initState() {
 
    bool? res = await FlutterPhoneDirectCaller.callNumber(phone);
 
-   if(res == true){
+  //  if(res == true){
       await FlutterPhoneDirectCaller.callNumber(phone);
-   }
-   else{
-    await launchUrl(launchUri);
-   }
+  //  }
+  //  else{
+    //await launchUrl(launchUri);
+   //}
 }
